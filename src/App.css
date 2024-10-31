@@ -1,0 +1,44 @@
+/* Mengatur gaya untuk kontainer utama */
+body, html {
+  height: 100%; /* Set tinggi body dan html untuk 100% */
+  margin: 10; /* Menghapus margin default */
+}
+
+.container {
+  display: flex; /* Mengaktifkan flexbox */
+  flex-direction: column; /* Mengatur elemen dalam kolom */
+  justify-content: center; /* Memusatkan konten secara vertikal */
+  align-items: center; /* Memusatkan konten secara horizontal */
+  height: 100vh; /* Mengatur tinggi kontainer menjadi 100vh (viewport height) */
+  margin-top: 0; /* Menghapus margin atas untuk elemen container */
+  
+}
+
+/* Gaya untuk teks count */
+.count-text {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Mengatur gaya untuk container tombol */
+.button-container {
+  margin-top: 20px;
+}
+
+/* Gaya untuk tombol */
+.button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect untuk tombol */
+.button:hover {
+  background-color: #0056b3; /* Warna tombol saat hover */
+}
